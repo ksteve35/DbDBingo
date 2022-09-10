@@ -1,11 +1,15 @@
 <template>
-  <div>
+  <div class="app-font-color">
     <DeadByBingoLogo></DeadByBingoLogo>
     <BingoSheet></BingoSheet>
   </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+.app-font-color {
+  color: rgb(231, 231, 231)
+}
+</style>
 
 <script>
 import BingoSheet from './components/BingoSheet.vue'
