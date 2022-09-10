@@ -1,0 +1,52 @@
+function regenerateNonToxicChallenges() {
+  return [
+    //'Any survivor runs ' + allSurvivorPerkNames[getRandomNumber(allSurvivorPerkNames.length) + 1],
+    'Any survivor finds a key',
+    'Any survivor finds a map',
+    'Any survivor gets grabbed out of a locker',
+    'You Head On the killer ' + (this.getRandomNumber(4) + 1) + ' time(s) this trial',
+    'You pallet stun the killer ' + (this.getRandomNumber(4) + 1) + ' time(s) this trial',
+    'All survivors play as ' + (this.getRandomNumber(2) == 1 ? 'free/starting survivors' : 'paid DLC survivors'),
+    'You 360 the killer',
+    'Killer has a ' + (this.getRandomNumber(2) == 1 ? 'one-shot power' : 'ranged power'),
+    'Killer brings an Exposure perk',
+    'Killer brings 1+ iridescent add-ons',
+    'Killer misses basic attack',
+    'Killer brings a Hex perk',
+    'Killer brings an Info/Aura-Reading perk',
+    'Killer brings a Chase/Tracking perk',
+    'Killer brings ' + (this.getRandomNumber(3) + 1) + ' of their own teachables',
+    'Killer is a ' + (this.getRandomNumber(2) == 1 ? 'free/starting killer' : 'paid DLC killer'),
+    'Either no map offering or Sacrificial Ward offering is burned',
+    'Any survivor loots the basement chest',
+    'All survivors loot a combined ' + (this.getRandomNumber(3) + 1) + '+ chests total',
+    'You enter the trial without an item and escape with a chest-looted item',
+    'You enter the trial without an item and escape with an item by any means',
+    "Use the perk Borrowed Time to rescue a hooked survivor while in the killer's terror radius",
+    'Jump off of a hill, building, or other tall landmark ' + (this.getRandomNumber(3) + 1) + '+ times this trial',
+    'You destroy ' + (this.getRandomNumber(3) + 1) + '+ totems this trial',
+    'Escape the trial by any means',
+    'Never get downed this trial',
+    'Dead Hard while in a chase and ' + (this.getRandomNumber(2) == 1 ? 'successfully dodge an attack' : 'get hit due to server issues'),
+    'Killer facecamps',
+    'Killer eats ' + (this.getRandomNumber(2) + 1) + '+ Decisive Strikes this trial',
+    'You get farmed off hook',
+    'Unhook yourself by any means',
+    'You get a flashlight save this trial',
+    'Escape the trial as the obession or die as the obession',
+    'You activate Mettle of Man',
+    'Hit ' + (this.getRandomNumber(3) + 1) + ' great skill checks by any means',
+    'Successfully fool the killer with either Deception, Red Herring, or Diversion this trial',
+    'Any survivor heals a health state from activating the Adrenaline perk',
+    'Rescue a teammate from a hook during the Endgame Collapse',
+    'Sabotage a hook that a survivor-carrying killer is walking toward',
+    "Get four stacks on We're Gonna Live Forever",
+    'Play this trial with inverted camera controls',
+    'Body block a survivor-carrying killer successfully',
+    'Max out your earned Bloodpoints in the ' + this.getRandomSurvivorBloodpointCategory() + ' category'
+  ]
+}
+
+export {
+    regenerateNonToxicChallenges
+}
