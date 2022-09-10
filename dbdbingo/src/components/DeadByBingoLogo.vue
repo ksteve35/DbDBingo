@@ -8,7 +8,8 @@
     height: auto;
     margin-left: auto;
     margin-right: auto;
-    width: 30%;
+    width: auto;
+    max-width: 20%;
 }
 </style>
 
