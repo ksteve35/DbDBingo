@@ -9,7 +9,8 @@
     margin-left: auto;
     margin-right: auto;
     width: auto;
-    max-width: 20%;
+    max-width: 15%;
+    min-width: 230px;
     padding: 1% 0px 1% 0px;
 }
 </style>
