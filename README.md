@@ -1,5 +1,8 @@
 # dbdbingo
 
+## Project Description
+This project serves as a way for both veteran and newcomer players alike to spice up their gameplay in the video game Dead By Daylight.
+
 ## Project setup
 ```
 npm install
