@@ -10,6 +10,7 @@
     margin-right: auto;
     width: auto;
     max-width: 20%;
+    padding: 1% 0px 1% 0px;
 }
 </style>
 
